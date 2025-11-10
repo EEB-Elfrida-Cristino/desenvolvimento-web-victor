@@ -1,0 +1,55 @@
+body{
+    margin: 0 0;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header, footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    background-color: #154ca0;
+    color: rgb(27, 24, 24);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+ 
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav{
+    background-color: #154ca0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+img{
+    height: 300px;
+    width: 320px;
+
+}
+
+.card{
+    margin: 70px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
